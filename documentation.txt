@@ -1,0 +1,18 @@
+--NOTES--
+
+
+
+--ROADMAP--
+1- Create Template HTML
+2-Test Data From API : JSON Placeholder Using Postman
+3-Use fetch wich return promise and use then and catch 
+3-Show All Users HTML and JS -- function getAllUsers()
+4-Show All Posts HTML and JS  -- function geAllPosts()
+5-Create Function When Click on User with id --- Show Posts By UserId 
+  --Post : id - userId
+  --User : id
+6-function getPostsByUserId
+7-Add Border to selected User
+8-Show Only Users and Go Back 
+9-Show Only Posts and Go Back
+10-Get Posts Affter Get Users using promise

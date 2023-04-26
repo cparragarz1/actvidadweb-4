@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users and Posts | Informations</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2/2643.png" type="image/x-icon">
+    <!--CDN Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CDN Bootstrap5 Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>S
+
+<!--Start Css Style-->
+
+
+<body class=" bg-light bg-gradient"> 
+    <div class="container mt-5">
+        <div class="row">
+            <!--Start Users-->
+            <div class="col-md-4 shadow p-3 bg-body rounded" id="usersArea">
+                <!--Title Users Informations-->
+                <div class="card mt-3">
+                    <div class="card-body">
+                      <h3 class="card-title"><i class="fa-solid fa-users"></i> Users</h3>
+                      <p class="card-text">Users Informations</p>
+                      <a href="#" class="btn btn-primary" id="onlyUsers">Only Users</a>
+                      <a href="" class="goBack btn btn-warning text-white"><i class="fa-solid fa-circle-arrow-left"></i> Go Back</a>
+                    </div>
+                </div>
+                <!--Users Informations -->
+                <div id="users">
+                   
+                </div>
+            </div>
+            <!--End Users-->
+
+
+            <!--Start Posts-->
+            <div class="col-md-7 shadow p-3 bg-body rounded mx-3" id="postsArea">
+                 <!--Title Posts Informations of Every User-->
+                 <div class="card mt-3">
+                    <div class="card-body">
+                      <h3 class="card-title"><i class="fa-solid fa-comments"></i> Posts</h3>
+                      <p class="card-text">Posts Informations</p>
+                      <a href="#" class="btn btn-primary" id="onlyPosts">Only Posts</a>
+                      <a href="" class="goBack btn btn-warning text-white"><i class="fa-solid fa-circle-arrow-left"></i> Go Back</a>
+                    </div>
+                </div>
+                <!--Posts Informations of Every User -->
+                <div id="posts">
+                   
+                </div>
+            </div>
+            <!--End Posts-->
+        </div>
+    </div>
+    <!--CDN Bootstrap5 Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Link Js-->
+    <script src="main.js"></script>
+</body>
+</html>
